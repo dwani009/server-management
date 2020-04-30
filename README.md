@@ -11,7 +11,7 @@ PHP version: > 7
 • Everything that is needed for CRUDs: model+migration+controller+requests+views
 
 ## How to use
-• create laravel project using command 'laravel new serverMgmt' and copy files from the zip sent or clone from the git link 
+• create laravel project using command 'laravel new serverMgmt' 
 • create your database (in my case database name is 'serverhosting')
 • edit .env file and modify database credentials there
 • run php artisan migrate --seed (it has some seeded data for testing) or upload db directly with servermgmt.sql file which exixts in the root directory of the project
